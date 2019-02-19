@@ -23,8 +23,8 @@
               "src/assets"
             ],
             "styles": [
-            
               
+              "../data-binding/node_modules/bootstrap/dist/css/bootstrap.min.css"              
 
             ],
             "scripts": [],

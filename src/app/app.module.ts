@@ -6,11 +6,15 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
 import { importExpr } from '@angular/compiler/src/output/output_ast';
 import { MeuFormComponent } from './meu-form/meu-form.component';
 import { MeuFormModule } from './meu-form/meu-form.module';
+import { InputProprtyComponent } from './input-proprty/input-proprty.component';
+import { OutputPropertyComponent } from './output-property/output-property.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    InputProprtyComponent,
+    OutputPropertyComponent
   ],
   imports: [
     BrowserModule,
