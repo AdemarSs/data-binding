@@ -9,19 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataBindingComponent implements OnInit {
 
-  url:string = 'http://';
+  url: string = 'http://';
 
   number = 2;
 
   urlImagem = 'http://lorempixel.com/400/200/nature/';
 
-  valorAtual:string = '';
+  valorAtual: string = '';
 
-  valorSalvo:string = '';
+  valorSalvo: string = '';
   
-  isMouseOver:boolean = false;
+  isMouseOver: boolean = false;
 
-  nome:string = 'abc';
+  
   
   
   getValor(){
