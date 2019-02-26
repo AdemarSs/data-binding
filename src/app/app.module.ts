@@ -8,13 +8,15 @@ import { MeuFormComponent } from './meu-form/meu-form.component';
 import { MeuFormModule } from './meu-form/meu-form.module';
 import { InputProprtyComponent } from './input-proprty/input-proprty.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
+import { CicloComponent } from './ciclo/ciclo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DataBindingComponent,
     InputProprtyComponent,
-    OutputPropertyComponent
+    OutputPropertyComponent,
+    CicloComponent
   ],
   imports: [
     BrowserModule,
